@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>871847470459-oba14788ovaa5025rf8u8tbgcla3a7se.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.871847470459-oba14788ovaa5025rf8u8tbgcla3a7se</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBD_95l01rSkJnKW4qwEvKdLJ1w_WMkKYs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>871847470459</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.anthonyh.CellProject</string>
+	<key>PROJECT_ID</key>
+	<string>cellproject-f0887</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cellproject-f0887.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:871847470459:ios:2eea05168f4d333b1409de</string>
+	<key>DATABASE_URL</key>
+	<string>https://cellproject-f0887.firebaseio.com</string>
+</dict>
+</plist>
