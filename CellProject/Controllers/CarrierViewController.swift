@@ -27,7 +27,7 @@ class CarrierViewController: UIViewController {
     
     @IBAction func buyNowPressed(_ sender: UIButton) {
         
-        if let url = URL(string: "https://www.myugoonline.net/113866") {
+        if let url = URL(string: "https://discountedcellularprepaidrefills.com") {
             UIApplication.shared.open(url)
         }
         

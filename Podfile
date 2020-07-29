@@ -7,16 +7,16 @@ target 'CellProject' do
 
   # Pods for CellProject
   # pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
   pod 'Firebase/Firestore'
 
-  target 'CellProjectTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
-  target 'CellProjectUITests' do
-    # Pods for testing
-  end
+  pod 'ProgressHUD'
+  pod 'MBProgressHUD'
+
+
 
 end
