@@ -1,4 +1,4 @@
-module Pods_CellProject {
+framework module Pods_CellProject {
   umbrella header "Pods-CellProject-umbrella.h"
 
   export *

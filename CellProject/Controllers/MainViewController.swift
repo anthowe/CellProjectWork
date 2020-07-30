@@ -10,13 +10,13 @@ import UIKit
 import Firebase
 
 class MainViewController: UIViewController {
-    
+
 private let dataSource = ["AT&T", "Verizon", "Tracfone", "Lyca"]
     @IBOutlet weak var pickerView: UIPickerView!
-    
+
     @IBOutlet weak var detailLabel: UILabel!
     var leftBarButtonItem : UIBarButtonItem!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,21 +24,21 @@ private let dataSource = ["AT&T", "Verizon", "Tracfone", "Lyca"]
         self.leftBarButtonItem = UIBarButtonItem(title: "test", style:         UIBarButtonItem.Style.plain, target: nil, action: nil)
         pickerView.delegate = self
         pickerView.dataSource = self
-        
+
     }
 
-    
+
     @IBAction func buyNowPressed(_ sender: UIButton) {
-        
+
         self.performSegue(withIdentifier: "goToVerizon", sender: self)
     }
-    
+
     @IBAction func attButtonPressed(_ sender: UIButton) {
-        
+
          self.performSegue(withIdentifier: "goToATT", sender: self)
-        
+
     }
-    
+
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
         print("Log Out Pressed")
         do{
@@ -47,21 +47,21 @@ private let dataSource = ["AT&T", "Verizon", "Tracfone", "Lyca"]
         }catch let signOutError as NSError{
             print("Error signing out: %@", signOutError)
         }
-        
-    }
-  
-    @IBAction func donePressed(_ sender: Any) {
-        
-      
 
     }
-    
+
+    @IBAction func donePressed(_ sender: Any) {
+
+
+
+    }
+
 }
 extension MainViewController: UIPickerViewDataSource, UIPickerViewDelegate{
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    
+
     public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return dataSource.count
     }

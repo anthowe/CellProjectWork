@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA89E47524DA997F30AE22E /* Pods_CellProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61CAA444DCE7C68BE8007DE /* Pods_CellProject.framework */; };
 		762132A323F5CEAC0042FEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762132A223F5CEAC0042FEEE /* AppDelegate.swift */; };
 		762132A523F5CEAC0042FEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762132A423F5CEAC0042FEEE /* SceneDelegate.swift */; };
 		762132A723F5CEAC0042FEEE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762132A623F5CEAC0042FEEE /* MainViewController.swift */; };
@@ -18,10 +19,11 @@
 		76BF74A823FC2D0000A69EBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76BF74A723FC2D0000A69EBA /* GoogleService-Info.plist */; };
 		76F412A123FCB35400C54A2C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F412A023FCB35400C54A2C /* WelcomeViewController.swift */; };
 		76F412A323FCB36600C54A2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F412A223FCB36600C54A2C /* LoginViewController.swift */; };
+		925D3B8824D324490098129F /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D3B8724D324490098129F /* HelperFunctions.swift */; };
+		925D3B8A24D324970098129F /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D3B8924D324970098129F /* FCollectionReference.swift */; };
 		927011DD24D1E8CC0023B5D7 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927011DC24D1E8CC0023B5D7 /* FinishRegistrationViewController.swift */; };
 		927011DF24D1F9B80023B5D7 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927011DE24D1F9B80023B5D7 /* FUser.swift */; };
 		927011E224D1FF250023B5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927011E124D1FF250023B5D7 /* Constants.swift */; };
-		97F3FEF961CD0AF90921D0AE /* libPods-CellProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB9D184CA39DD35ECF8D4CC /* libPods-CellProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +60,13 @@
 		76BF74A723FC2D0000A69EBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76F412A023FCB35400C54A2C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		76F412A223FCB36600C54A2C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		925D3B8724D324490098129F /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = /Users/anthony/Desktop/CellProject/CellProject/Helpers/HelperFunctions.swift; sourceTree = "<absolute>"; };
+		925D3B8924D324970098129F /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
 		927011DC24D1E8CC0023B5D7 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
 		927011DE24D1F9B80023B5D7 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
 		927011E124D1FF250023B5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9FB9D184CA39DD35ECF8D4CC /* libPods-CellProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A608E2813E2366D95187FAB0 /* Pods-CellProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellProject.debug.xcconfig"; path = "Target Support Files/Pods-CellProject/Pods-CellProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D61CAA444DCE7C68BE8007DE /* Pods_CellProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F3FEF961CD0AF90921D0AE /* libPods-CellProject.a in Frameworks */,
+				5AA89E47524DA997F30AE22E /* Pods_CellProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +107,7 @@
 		678C77C43CD6A9515C590A41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FB9D184CA39DD35ECF8D4CC /* libPods-CellProject.a */,
+				D61CAA444DCE7C68BE8007DE /* Pods_CellProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,6 +181,8 @@
 		927011E324D1FF300023B5D7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				925D3B8924D324970098129F /* FCollectionReference.swift */,
+				925D3B8724D324490098129F /* HelperFunctions.swift */,
 				927011E124D1FF250023B5D7 /* Constants.swift */,
 			);
 			path = Helpers;
@@ -193,7 +199,7 @@
 				7621329B23F5CEAC0042FEEE /* Sources */,
 				7621329C23F5CEAC0042FEEE /* Frameworks */,
 				7621329D23F5CEAC0042FEEE /* Resources */,
-				7F0BB53256D691364DAEA5A8 /* [CP] Copy Pods Resources */,
+				7647AA7161A8FDB39C2C6D98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,21 +318,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F0BB53256D691364DAEA5A8 /* [CP] Copy Pods Resources */ = {
+		7647AA7161A8FDB39C2C6D98 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellProject/Pods-CellProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A88732D54427776282A5EC4F /* [CP] Check Pods Manifest.lock */ = {
@@ -364,9 +370,11 @@
 				76A9BF2D23FC4C6800E07DBE /* RegisterViewController.swift in Sources */,
 				762132A323F5CEAC0042FEEE /* AppDelegate.swift in Sources */,
 				927011DF24D1F9B80023B5D7 /* FUser.swift in Sources */,
+				925D3B8A24D324970098129F /* FCollectionReference.swift in Sources */,
 				76F412A123FCB35400C54A2C /* WelcomeViewController.swift in Sources */,
 				765710B623F76D860021237D /* CarrierViewController.swift in Sources */,
 				762132A523F5CEAC0042FEEE /* SceneDelegate.swift in Sources */,
+				925D3B8824D324490098129F /* HelperFunctions.swift in Sources */,
 				927011E224D1FF250023B5D7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
